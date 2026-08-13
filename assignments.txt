@@ -1,0 +1,22 @@
+Q No 1) Create an object named car with properties brand, model, and year. 
+Add a method named getDetails inside the object that uses the this keyword to 
+return a string combining the brand, model, and year (e.g., "2025 Toyota Corolla"). 
+Test your method by calling it.
+
+Q No 2) Create a nested object representing a user with a name, id, 
+and an address object containing city and country. Create a deep copy 
+of this object using structuredClone(). Modify the city in the copied object, 
+and then log both original and copied objects to prove that the original city did not change.
+
+Q No 3) Given an array of 4 products where each product has name, price, 
+and inStock (boolean) properties, use the .filter() method to create a new 
+array containing only the products that are currently inStock: true.
+
+Q No 4) Given an array of numbers representing student scores (e.g., [45, 60, 75, 90]), 
+use the .map() method to create a new array where 5 grace marks are added to each score.
+
+Q No 5) Given an array of employee objects with name and salary properties:
+
+Use .map() to extract just the salary values into a separate array.
+
+Use .reduce() on that salary array to calculate the total sum of all salaries combined.
