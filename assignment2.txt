@@ -1,0 +1,12 @@
+Write a JavaScript program that:
+
+Takes two numbers from the user.
+Takes an operation from the user: +, -, *, or /.
+Has one main function called calculator().
+Inside calculator(), create separate child functions:
+add()
+subtract()
+multiply()
+divide()
+The child functions should use the numbers received by the main function.
+Return and display the final result.
