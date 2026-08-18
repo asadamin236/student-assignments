@@ -1,0 +1,34 @@
+Practice Questions on Timers & Closures
+Question 1: Countdown Timer
+
+Write a JavaScript function named countdownTimer(start) that takes a starting 
+number (e.g., 5). Using setInterval, it should print the countdown every 1 second 
+(e.g., 5, 4, 3...). When the count reaches 0, it should print "Time's up!" 
+and automatically stop the interval using clearInterval.
+
+Question 2: Dynamic Sum Repeater with Stop Condition
+
+Write a function repeatSum(x, y) that takes two numbers, 
+prints their sum immediately, and then uses setInterval to 
+print the sum every 2 seconds. Stop the interval automatically 
+after it has printed the sum exactly 5 times, and print "Finished repeating".
+
+Question 3: Delayed Welcome Message
+
+Write a function delayedGreeting(name) that uses 
+setTimeout to print "Hello, [name]!" after a delay of 3 seconds. 
+Inside the same function, declare a local variable message and make 
+sure the inner callback function can access it (demonstrating lexical scope / closure).
+
+Question 4: Interactive Stop Button Simulation
+
+Write a function startCounter() that starts a setInterval logging 
+an increasing number every 1 second. Return a second function 
+(or handle it inside) called stopCounter that, when invoked, 
+clears that interval using clearInterval.
+
+Question 5: Periodic Reminder with Max Limit
+
+Write a function waterReminder() that prints "Drink water!" 
+every 4 seconds. Keep track of how many times the reminder 
+has been sent, and automatically stop it after 4 total reminders using clearInterval.
