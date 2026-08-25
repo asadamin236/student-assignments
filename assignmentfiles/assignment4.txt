@@ -1,0 +1,7 @@
+Write reason for this question
+Q No 1: What will happen if someone change manually <center id="count">0</center> to <center id="count">50</center>?
+Write one line of code for this question
+Q No 2: In the function counter you have 3 images to none how it write in one line of code? like how all the images select in one line and write it to none?
+Rewrite this program using event listener.
+Q No 3: Please rewrite this program using event listener. Don't use onCLick in the button.
+
