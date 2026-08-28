@@ -1,0 +1,25 @@
+Case-Insensitive Name Match
+Q No 1) Modify the code so that if the user enters "AMIR", "amir", 
+or "Amir", the Promise still resolves successfully.
+
+4-Digit PIN Lock
+Q No 2) Create a Promise that asks the user for a 4-digit PIN 
+using prompt(). If the PIN equals 1234, resolve after 3 
+seconds with "Access Granted". Otherwise, reject with 
+"Wrong PIN".
+
+Balance Check Logic
+Q No 3) Prompt for a Name and Withdrawal Amount. 
+If the name is "Amir" and the amount is less than 
+or equal to 500, resolve with "Transaction Successful". 
+If the amount exceeds 500, reject with "Insufficient Balance"
+
+Custom Timeout Failure
+Q No 4) Create a Promise that calculates a user score. If the processing 
+inside setTimeout takes longer than 5 seconds, reject with 
+"Request Timed Out"
+
+Double Password Matching
+Q No 5) Prompt the user for a Password and then Confirm Password. 
+Resolve the Promise only if both inputs match AND the 
+length is greater than 6 characters.
