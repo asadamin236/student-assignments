@@ -1,0 +1,50 @@
+Q1 — Basic Student Promise
+Create a function: getStudent(id)
+that returns a Promise. After 2 seconds:
+If id is 1, resolve with "Student Found".
+Otherwise, reject with "Student Not Found".
+Handle the result using .then() and .catch().
+
+
+Q2 — Fetch Three Students Using .then() 
+Create a function: fetchStudent(name, id)
+that returns a Promise. After 2 seconds, print the student's name and ID.
+Then use .then() chaining to fetch these students one after another:
+Student1, 1
+Student2, 2
+Student3, 3
+
+Expected output:
+
+Student1 1
+Student2 2
+Student3 3
+All students fetched
+
+
+Q3 — Fetch Three Students Using async/await
+Create a Promise-based function: fetchStudent(name, id)
+Then create: async function getAllStudents()
+Use async/await to fetch:
+Student1 → Student2 → Student3
+Each student should take 2 seconds.
+
+Expected output:
+
+Student1 1
+Student2 2
+Student3 3
+All students fetched
+
+
+
+Q4 — Student Result
+Create a function: getResult(studentId)
+that returns a Promise. After 2 seconds, resolve with:
+Student ID: 1
+Score: 85
+Call: getResult(1) 
+and handle the result using .then(). 
+If the student ID is not found, reject with:
+Student Not Found
+and handle it using .catch().
