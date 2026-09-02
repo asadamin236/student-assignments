@@ -1,0 +1,2 @@
+Use forof loop to extract data from this api:
+https://jsonplaceholder.typicode.com/posts
