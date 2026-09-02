@@ -1,2 +1,2 @@
-Use forof loop to extract data from this api:
+Use forof loop to extract data from this api and also use of the Try Catch method:
 https://jsonplaceholder.typicode.com/posts
